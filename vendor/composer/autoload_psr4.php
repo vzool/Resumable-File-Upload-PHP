@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
     'Dilab\\' => array($vendorDir . '/dilab/resumable.php/src'),
     'Cake\\Filesystem\\' => array($vendorDir . '/cakephp/filesystem'),
 );
